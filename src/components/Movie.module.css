@@ -1,0 +1,35 @@
+.movie {
+    margin: 0.5rem;
+    padding: 1rem;
+    max-width: 14rem;
+    min-width: 20%;
+    min-height: 14rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: linear-gradient(
+      91.91deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.4) 100.82%
+    );
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26); */
+    border-radius: 12px;
+    text-align: center;
+    color: #2B374B;
+  }
+  
+  .movie h2 {
+    font-size: 1.2rem;
+    color: #2B374B;
+    text-transform: uppercase;
+  }
+  .movie p {
+    color: #2B374B;
+    font-size: 0.8rem;
+  }
+  
+  .movie h3 {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    font-size: 0.7rem;
+    text-align: right;
+  }
